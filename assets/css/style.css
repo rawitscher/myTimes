@@ -106,6 +106,7 @@ p{
 .image{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	height: 300px;
 }
 
@@ -128,6 +129,10 @@ p{
 /******/
 /* Story Formatting */
 /******/
+
+h2{
+	font-size: 32px;
+}
 
 .story{
 	flex-basis: 100%;
@@ -168,4 +173,36 @@ p{
 	align-self: stretch;
 	flex: 0;
 	flex-basis: 500%;
+}
+
+
+/******/
+/* Bite Formatting */
+/******/
+
+footer{
+	background-color: MediumAquamarine;
+	 margin: auto;
+	 font-family: Verdana;
+	 font-size: 12px;
+	 display: flex;
+	 flex-direction: column;
+	 height: 300px;
+	 justify-content: center;
+	 align-items: center;
+}
+
+.MyT_footer{
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+footer span{
+	padding: 10px;
+}
+
+#site_map{
+	margin-bottom: 10px;
 }
